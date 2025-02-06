@@ -18,7 +18,6 @@ public class StaticAndInstanceMethod {
 		
 		StaticAndInstanceMethod.m2();
 		
-
 	}
 
 }
