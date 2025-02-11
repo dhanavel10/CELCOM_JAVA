@@ -11,6 +11,7 @@ interface InterfaceTwo{
 	int a=20;
 }
 
+
 interface InterfaceThree extends InterfaceOne,InterfaceTwo{
 	void addition();
 	
