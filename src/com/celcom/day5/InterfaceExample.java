@@ -36,7 +36,7 @@ class CarBluePrint implements VehiclePlan1,VehiclePlan2{
 public class InterfaceExample {
 	public static void main(String args[])
 	{
-		CarBluePrint c = new CarBluePrint();
-		c.brandName();
+		VehiclePlan1 c = new CarBluePrint();
+		c.noOfEngine();
 	}
 }

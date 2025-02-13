@@ -17,7 +17,7 @@ class B extends A {
 		System.out.println("B");
 	}
 	B(int q){
-		super(10);   				// this is automatically invoked here
+		super();   				// this is automatically invoked here
 		System.out.println("B1");
 	}
 }

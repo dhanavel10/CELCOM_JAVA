@@ -32,8 +32,6 @@ public class ThreadExample2 {
 		
 		System.out.println(thread1.getState());
 		System.out.println("Main end");
-		
-		
 
 	}
 

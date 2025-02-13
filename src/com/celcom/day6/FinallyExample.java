@@ -7,6 +7,7 @@ public class FinallyExample {
 		
 		try {
 			int a=10/0;
+			return;
 			
 		}
 		catch(ArithmeticException e) {

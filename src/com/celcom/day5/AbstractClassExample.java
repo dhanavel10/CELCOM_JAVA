@@ -22,7 +22,7 @@ class Car extends Vehicle{
 	
 	void noOfWheels() {
 		System.out.println("four wheels");
-		
+	
 	}
 
 	void brandName() {

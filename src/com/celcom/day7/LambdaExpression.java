@@ -1,7 +1,9 @@
 package com.celcom.day7;
 
+@FunctionalInterface
 interface Calculator{
 	int cal(int a,int b);
+	
 }
 
 public class LambdaExpression {

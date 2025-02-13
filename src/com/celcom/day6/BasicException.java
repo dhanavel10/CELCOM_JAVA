@@ -23,6 +23,7 @@ public class BasicException {
 			System.out.println("exception handling : " +e);
 		}
 		
+		
 		// multiple catch block
 		try {
 			int a=Integer.parseInt("abc");

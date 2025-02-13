@@ -10,6 +10,9 @@ public class JavaBlocks {
 	{
 		System.out.println("Instance block");
 	}
+	public String toString() {
+		return "hello";
+	}
 	
 	
 	static {
@@ -22,6 +25,7 @@ public class JavaBlocks {
 		
 		//Object
 		JavaBlocks block = new JavaBlocks();
+		System.out.println(block);
 		
 	}
 
