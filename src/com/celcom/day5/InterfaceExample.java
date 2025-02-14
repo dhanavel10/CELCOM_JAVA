@@ -1,7 +1,7 @@
 package com.celcom.day5;
 
 interface VehiclePlan1{
-	
+	int a=10;
 	void noOfEngine();
 	
 }
@@ -38,5 +38,6 @@ public class InterfaceExample {
 	{
 		VehiclePlan1 c = new CarBluePrint();
 		c.noOfEngine();
+		
 	}
 }

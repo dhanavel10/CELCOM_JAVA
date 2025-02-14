@@ -42,6 +42,9 @@ public class AbstractClassExample {
 		Vehicle car = new Car();
 		car.brandName();
 		car.noOfWheels();
+		car.number=10;
+		System.out.println(car.number);
+		
 		
 
 	}
