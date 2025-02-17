@@ -14,12 +14,11 @@ public class SearchElements {
 		int search= sc.nextInt();
 		List <Integer> list = new ArrayList<>();
 		
-		list.add(10);
-		list.add(20);
-		list.add(30);
-		list.add(40);
-		list.add(50);
-		list.add(60);
+		int size= sc.nextInt();
+		for(int i=0;i<size;i++) {
+			System.out.println("Enter element : ");
+			list.add(sc.nextInt());
+		}
 		for(int value:list)
 		{
 			if(value==search) {
