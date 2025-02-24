@@ -6,6 +6,7 @@ public class CancelTicket {
 	
 	Scanner sc= new Scanner(System.in);
 
+	//cancel the ticket and book the waiting list
 	
 	void cancelBooking(int session) {
 		

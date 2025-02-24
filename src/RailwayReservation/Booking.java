@@ -23,6 +23,8 @@ public class Booking {
 	static HashMap<String,Integer> upper= new HashMap<>(upSize);
 	static Queue <QueueData> waiting= new LinkedList<>();
 	
+	
+	// book the ticket in lower berth
 	void checkLower(String name,int session) {
 		if (low<lowSize) {
 			lower.put(name, session);
@@ -52,6 +54,8 @@ public class Booking {
 		}
 	}
 	
+	
+	// book the ticket in Middle berth
 	void checkMiddle(String name,int session) {
 		if(mi<midSize){
 			mid.put(name, session);
@@ -82,6 +86,8 @@ public class Booking {
 		}
 		
 	}
+	
+	// book the ticket in upper berth
 	void checkUpper(String name,int session) {
 		
 		if(up<upSize) {
@@ -112,15 +118,20 @@ public class Booking {
 			}
 		}
 	}
+	
+	//display all the seating
 	void displayAll() {
 		lower.forEach((key,value)->{
+			System.out.println("Lower seating : ");
 			System.out.println("Lower : "+key+" "+value);
 		});
 		
 		mid.forEach((key,value)->{
+			System.out.println("Middle seating : ");
 			System.out.println("Middle : "+key+" "+value);
 		});
 		upper.forEach((key,value)->{
+			System.out.println("Upper seating : ");
 			System.out.println("Upper : "+key+" "+value);
 		});
 	}

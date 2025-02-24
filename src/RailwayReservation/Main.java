@@ -26,6 +26,7 @@ public class Main {
 		int choice=sc.nextInt();
 		
 		
+		// user choice getting
 		switch(choice) {
 		case 1:
 			System.out.println("create account");

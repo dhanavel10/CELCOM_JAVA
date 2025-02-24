@@ -8,10 +8,14 @@ public class Functions {
 	
 	String name=null;
 	
+	//data structure delaration
+	
 	static HashMap <String,Passenger> data= new HashMap<>();
 	
 	
 	Scanner sc= new Scanner(System.in);
+	
+	//create account
 	
 	void createAccount() {
 		
@@ -44,6 +48,8 @@ public class Functions {
 		
 	}
 	
+	// login function
+	
 	void logIn() {
 		System.out.println("Enter user name");
 		String username=sc.next();
@@ -69,7 +75,7 @@ public class Functions {
 		
 	}
 	
-	
+	//book ticket
 	void bookTicket() {
 		System.out.println("Logged in as : "+name);
 		System.out.println("Session id : "+Main.session);
@@ -102,6 +108,8 @@ public class Functions {
 		}
 		
 	}
+	
+	// cancel ticket
 	void cancelTicket() {
 		
 		System.out.println("Logged in as : "+name);
@@ -113,6 +121,9 @@ public class Functions {
 		
 		
 	}
+	
+	// logout function
+	
 	void logOut() {
 		Main.session=0;
 		name=null;
