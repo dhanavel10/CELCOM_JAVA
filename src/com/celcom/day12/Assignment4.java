@@ -1,6 +1,7 @@
 package com.celcom.day12;
 
 import java.sql.SQLException;
+
 import java.util.Scanner;
 
 public class Assignment4 {
@@ -10,7 +11,7 @@ public class Assignment4 {
 		Scanner sc= new Scanner(System.in);
 		
 		Assignment4_DB function = new Assignment4_DB();
-		
+
 		while(true) {
 		System.out.println("Enter the choice");
 		System.out.println("1.Create customer");
